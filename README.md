@@ -2,10 +2,6 @@
 
 ### This Script will help you to delete and create the docker secret which are mentioned in namespaces.txt
 
-#### NOTE: 
-    - This script works only on RPM and Debian flavors.
-    - This script needs to run on all the nodes.
-
 #### Steps:
 1. Clone/Download Script from repo.\
     `git clone https://github.com/anuddeeph1/rotate-docker-secret.git `
@@ -15,6 +11,6 @@
     `chmod +x script.sh`
 4.  run the script.
         `./script.sh <secret-name> <namespaces-file>`
-        `./script.sh regcred namespaces`
+        `./script.sh regcred namespaces.txt`
 
 
